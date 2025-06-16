@@ -48,6 +48,18 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2064
+- serviceName: project.siqatestmcsp1606.integrations:Gitsync
+  packages:
+  - name: SiqaTestMCSP1606Project
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2064
 - serviceName: project.siqatestmcsp1606.integrations:SIQAAdapterFlow
   packages:
   - name: SiqaTestMCSP1606Project
@@ -64,10 +76,6 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
-- serviceName: pub.math:addInts
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2064
 - serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
