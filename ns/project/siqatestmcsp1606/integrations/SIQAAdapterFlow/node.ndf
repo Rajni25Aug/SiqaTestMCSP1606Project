@@ -45,8 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="lastModifiedBy">siqaadmin</value>
-    <value name="lastModifiedDate">1750064095392</value>
+    <value name="lastModifiedBy">KumariRajni.Singh@ibm.com</value>
+    <value name="lastModifiedDate">1750067558573</value>
     <value name="displayName">SIQAAdapterFlow</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -62,11 +62,11 @@
         <value name="name">Database</value>
         <value name="providerName">WmJDBCAdapter</value>
         <record name="operation" javaclass="com.wm.util.Values">
-          <value name="operationName">DBNewInsert</value>
+          <value name="operationName">newDbinsert</value>
           <value name="isCustom">true</value>
           <value name="operationType">actions</value>
           <value name="connectionType">sagcloud</value>
-          <value name="projectName">project.siqatest08april</value>
+          <value name="projectName">project.siqatestmcsp1606</value>
         </record>
         <value name="appType">predefined</value>
         <Boolean name="hasAccount">true</Boolean>
@@ -89,38 +89,33 @@
         </array>
         <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
         </array>
-        <null name="mapSet"/>
+        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
+        </array>
         <array name="inputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <array name="outputMap" type="object" depth="1" javaclass="java.lang.Object">
         </array>
         <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">DatabasenewAccount</value>
-          <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
+          <value name="connectionName">Database_1</value>
+          <value name="connectionType">sagcloud</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">project.siqatestmcsp1606.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:DatabasenewAccount</value>
-        <value name="connectionType">IBM webMethods Adapter for JDBC ExtendedConnection</value>
+        <value name="connectionNSName">project.siqatestmcsp1606.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1</value>
+        <value name="connectionType">sagcloud</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <number name="ui_step_index" type="Long">1</number>
         <number name="nodeIndex" type="Long">0</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
-        <value name="nodePathForDebug">0</value>
         <value name="nodePathNew">0</value>
         <number name="lineNumberForDebug" type="Long">1</number>
+        <value name="nodePathForDebug">0</value>
       </record>
     </record>
-    <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
-    </record>
-    <value name="createdDate">1750064095392</value>
   </record>
   <value name="svc_in_validator_options">none</value>
   <value name="svc_out_validator_options">none</value>
-  <value name="auditoption">0</value>
+  <value name="auditoption">2</value>
   <null name="auditfields_input"/>
   <null name="auditfields_output"/>
   <record name="auditsettings" javaclass="com.wm.util.Values">
