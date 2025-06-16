@@ -24,6 +24,18 @@ services:
   packages:
   - name: SiqaTestMCSP1606Project
     version: "1.0"
+- serviceName: project.siqatestmcsp1606.integrations:Sum
+  packages:
+  - name: SiqaTestMCSP1606Project
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2064
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2064
 - serviceName: project.siqatestmcsp1606.integrations:deepclonetest
   packages:
   - name: SiqaTestMCSP1606Project
