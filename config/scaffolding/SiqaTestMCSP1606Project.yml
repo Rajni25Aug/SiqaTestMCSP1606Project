@@ -20,11 +20,7 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2064
-- serviceName: project.siqatestmcsp1606.integrations:SIQAAdapterFlow
-  packages:
-  - name: SiqaTestMCSP1606Project
-    version: "1.0"
-- serviceName: project.siqatestmcsp1606.integrations:deepclonetest
+- serviceName: project.siqatestmcsp1606.integrations:Copy_deepclonetest
   packages:
   - name: SiqaTestMCSP1606Project
     version: "1.0"
@@ -40,3 +36,11 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2064
+- serviceName: project.siqatestmcsp1606.integrations:SIQAAdapterFlow
+  packages:
+  - name: SiqaTestMCSP1606Project
+    version: "1.0"
+- serviceName: project.siqatestmcsp1606.integrations:deepclonetest
+  packages:
+  - name: SiqaTestMCSP1606Project
+    version: "1.0"
