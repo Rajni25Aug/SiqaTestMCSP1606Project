@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: SiqaTestMCSP1606Project
+  gitServerName: KusiVCTest
+  gitUrl: https://github.com/Rajni25Aug
+  gitUsername: Rajni25Aug
+  gitBranch: main
