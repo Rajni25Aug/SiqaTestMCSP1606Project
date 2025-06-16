@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/Rajni25Aug
   gitUsername: Rajni25Aug
   gitBranch: main
+services:
+- serviceName: project.siqatestmcsp1606.integrations:AlertsCRTandERT
+  packages:
+  - name: SiqaTestMCSP1606Project
+    version: "1.0"
+- serviceName: pub.alert:emit
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2064
